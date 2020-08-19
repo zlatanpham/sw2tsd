@@ -1,0 +1,14 @@
+{
+  "name": "@zlph/sw2tsd",
+  "version": "0.0.3",
+  "main": "index.js",
+  "author": "zlatan <zlatan.pham@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "isomorphic-unfetch": "^3.0.0",
+    "prettier": "^2.0.5",
+    "readline": "^1.3.0",
+    "shelljs": "^0.8.4",
+    "sw2dts": "^2.6.3"
+  }
+}
