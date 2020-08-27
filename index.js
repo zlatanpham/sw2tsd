@@ -6,7 +6,7 @@ const fs = require('fs');
 
 const animateProgress = require('./helpers/progress');
 const logWrite = (message) => process.stdout.write(message);
-const errorWrite = (error) => process.stderr.write(message);
+const errorWrite = (error) => process.stderr.write(error);
 
 const sleep = (delay) =>
   new Promise((ressolve) => {
